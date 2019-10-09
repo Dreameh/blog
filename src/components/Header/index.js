@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import("../../sass/dreameh.scss");
 
 
@@ -7,9 +8,9 @@ const Navbar = () => (
     <nav className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <a className="navbar-item">
+          <Link to="/" className="navbar-item">
             <img src="../../pages/logo.jpg" alt="Logo" />
-          </a>
+          </Link>
           <span className="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
