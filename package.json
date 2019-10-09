@@ -1,14 +1,18 @@
 {
-  "name": "gatsby-orga",
+  "name": "dreameh-orgs",
   "description": "Gatsby starter website with org-mode",
-  "version": "1.0.0",
-  "author": "Xiaoxing Hu <dawnstar.hu@gmail.com>",
+  "version": "0.0.1",
+  "author": "Xiaoxing Hu <dawnstar.hu@gmail.com>, Dreameh",
   "dependencies": {
+    "bulma": "^0.7.5",
     "gatsby": "^2.14.0",
     "gatsby-source-filesystem": "^2.1.18",
     "gatsby-transformer-orga": "^1.5.2",
+    "gatsby-plugin-sass": "^2.1.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "node-sass": "^4.9.2"
   },
   "keywords": [
     "gatsby",

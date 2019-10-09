@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-orga",
   siteMetadata: {
-    title: 'Gatsby Orga Starter',
+    title: 'Luke\'s Dev Corner',
   },
   plugins: [
     {
@@ -16,6 +16,12 @@ module.exports = {
       options: {
         // if you don't want to have server side prism code highlight
         // noHighlight: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        // Kek
       },
     }
   ],

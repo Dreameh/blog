@@ -4,3 +4,8 @@
   margin-top: 1.5em;
   margin-bottom: 2em;
 }
+
+img.header-img {
+    width: 150px !important;
+    height: 150px !important;
+}
