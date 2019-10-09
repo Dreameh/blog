@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-orga",
+  "description": "Gatsby starter website with org-mode",
+  "version": "1.0.0",
+  "author": "Xiaoxing Hu <dawnstar.hu@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.14.0",
+    "gatsby-source-filesystem": "^2.1.18",
+    "gatsby-transformer-orga": "^1.5.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "keywords": [
+    "gatsby",
+    "org-mode",
+    "orga"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "rm -rf .cache && gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "clean": "rm -rf .cache public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "npm-check": "^5.9.0",
+    "prettier": "^1.18.2"
+  }
+}
