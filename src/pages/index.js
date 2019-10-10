@@ -11,7 +11,7 @@ class BlogIndex extends React.Component {
       const date = node.meta.date || "no date";
       return (
         <div>
-          <h2 className="subtitle is-6" style={{ marginBottom: "0.2em" }}>
+          <h2 className="subtitle is-6">
             <Link to={node.fields.slug}>{title}</Link>
           </h2>
           <small>{date}</small>

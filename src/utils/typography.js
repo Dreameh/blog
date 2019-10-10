@@ -1,4 +1,4 @@
-import Typography from 'typography'
+/* import Typography from 'typography'
 import theme from 'typography-theme-github'
 import CodePlugin from 'typography-plugin-code'
 
@@ -16,3 +16,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export default typography
+ */

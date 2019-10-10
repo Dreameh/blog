@@ -9,6 +9,7 @@ $pink: #FA7C91;
 $brown: #757763;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
+$white: #FFF;
 
 // Update Bulma's global variables
 $family-sans-serif: "Raleway", sans-serif;
@@ -18,6 +19,9 @@ $primary: $purple;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+
+// Settings burger color
+$navbar-burger-color: $white;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
