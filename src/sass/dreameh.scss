@@ -7,6 +7,7 @@
 $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #757763;
+$black: #2d2d2d;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
 $white: #FFF;
@@ -22,10 +23,19 @@ $fullhd-enabled: false;
 
 // Settings burger color
 $navbar-burger-color: $white;
+$pre-background: $black;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
 $control-border-width: 2px;
 
 
-@import "./node_modules/bulma/bulma.sass"
+// Import only what you need from Bulma
+@import "./node_modules/bulma/sass/utilities/_all.sass";
+@import "./node_modules/bulma/sass/base/_all.sass";
+@import "./node_modules/bulma/sass/elements/button.sass";
+@import "./node_modules/bulma/sass/elements/container.sass";
+@import "./node_modules/bulma/sass/elements/title.sass";
+@import "./node_modules/bulma/sass/components/navbar.sass";
+@import "./node_modules/bulma/sass/layout/hero.sass";
+@import "./node_modules/bulma/sass/layout/section.sass";
