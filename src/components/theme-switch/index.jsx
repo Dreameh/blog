@@ -22,6 +22,8 @@ function toggleTheme(theme) {
       Dom.removeClassToBody(THEME.LIGHT)
       break
     }
+    default:
+      break;
   }
 }
 

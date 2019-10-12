@@ -1,16 +1,11 @@
 import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 
-import * as Elements from '../components/elements'
 import { Layout } from '../layout'
 import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostContainer } from '../components/post-container'
-import { SocialShare } from '../components/social-share'
-import { SponsorButton } from '../components/sponsor-button'
-import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
-import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 

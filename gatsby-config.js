@@ -11,13 +11,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-orga`,
-      options: {
-        // if you don't want to have server side prism code highlight
-        // noHighlight: true,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/__about`,

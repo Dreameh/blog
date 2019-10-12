@@ -1,18 +1,17 @@
-#+ORGA_PUBLISH_KEYWORD: PUBLISHED
-#+TODO: DRAFT | PUBLISHED
-
-* PUBLISHED Install Emacs on Fedora 30/31/Rawhide
-  
-  Installing Emacs through the official channels is very easy,
+---
+title: Emacs Installation on Fedora 30/31/Rawhide
+date: 2019-10-02 00:00:00
+category: 'emacs'
+---
+ Installing Emacs through the official channels is very easy,
   however, with the recent problem that a lot of Emacs users were
   suddenly facing not being able to use package.el to download their packages.
 
   The problem seemed to have come with gnutls that were higher or
   equals to version 3.6, the workaround was supposed to be:
-  #+BEGIN_SRC lisp
+  ```lisp
   (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
-  #+END_SRC
-
+  ```
   However for some reason, no matter what, I couldn't get it fixed,
   and this was with a newly installed version of Emacs 26.2-1.fc30 and
   Emacs 26.2-2.fc31 on Fedora 30/31 so this was a big problem, because
@@ -24,10 +23,10 @@
   and it worked wonderfully, so I wanted to share how to do it in a
   few simple steps which you can find below.
 
-  *NOTE:* You can insert all the steps into a bash file and then run the
+  **NOTE:** You can insert all the steps into a bash file and then run the
   file, for a faster install.
- 
-#+BEGIN_SRC bash
+  
+  ```sh
   # Dependencies for development
   sudo dnf group install "Development Tools"
   # Dependencies specific to emacs
@@ -57,4 +56,4 @@
 
   # Install the binary
   sudo make install
-#+END_SRC
+  ```
