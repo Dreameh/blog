@@ -15,9 +15,6 @@ export const Top = ({ title, location, rootPath }) => {
       <Link to={`/about`} className="menu-item">
         About
       </Link>
-      <Link to={`/lists`} className="menu-item">
-        Lists
-      </Link>
     </div>
   )
 }
