@@ -8,7 +8,7 @@ export const Top = ({ title, location, rootPath }) => {
   return (
     <div className="top">
       {!isRoot && (
-        <Link to={`/`} className="link">
+        <Link to={`/`} className="link-menu">
           {title}
         </Link>
       )}

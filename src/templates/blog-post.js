@@ -6,6 +6,7 @@ import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostContainer } from '../components/post-container'
 import { PostNavigator } from '../components/post-navigator'
+import { Bio } from '../components/bio'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
@@ -28,6 +29,7 @@ export default ({ data, pageContext, location }) => {
       <PostTitle title={post.frontmatter.title} />
       <PostContainer html={post.html} />
       <PostNavigator pageContext={pageContext} />
+      <Bio/>
       {!!utterances && <Utterences repo={utterances} />}
     </Layout>
   )

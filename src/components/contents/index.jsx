@@ -9,7 +9,7 @@ export const Contents = ({ posts, countOfInitialPost, count, category }) => {
     posts
       .filter(
         ({ node }) =>
-          category === CATEGORY_TYPE.ALL || node.category === category
+          category === CATEGORY_TYPE.ALL || node.frontmatter.category === category
       )
       .slice(0, count * countOfInitialPost)
   )

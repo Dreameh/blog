@@ -44,6 +44,11 @@ body.light {
   }
 
   .thumbnail {
+    border-left: 6px solid rgba($color: #000000, $alpha: 0.1);
+    border-right: 6px solid rgba($color: #000000, $alpha: 0.1);
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+
     h3 {
       color: $dark-gray;
     }
@@ -53,6 +58,7 @@ body.light {
     &:hover {
       text-shadow: $light-hover-text-shadow;
     }
+
   }
 
   .footer {
@@ -68,5 +74,12 @@ body.light {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
+  }
+
+  .menu-item {
+    color: $light-link-color;
+  }
+  .link-menu {
+    color: $light-link-color;
   }
 }

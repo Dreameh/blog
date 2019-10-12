@@ -79,4 +79,11 @@ body.dark {
       color: $navigator-text-color;
     }
   }
+
+  .menu-item {
+    color: $dark-lightest-font-color;
+  }
+  .link-menu {
+    color: $dark-link-color;
+  }
 }
