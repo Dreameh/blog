@@ -1,7 +1,7 @@
 ---
 title: 'Lists of all things great'
 date: 2019-1-27 16:21:13
-lang: 'en'
+category: 'kdrama'
 ---
 
 This page shall be a page with curated lists of recommended series and films from all over the world.
