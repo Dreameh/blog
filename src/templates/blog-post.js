@@ -7,6 +7,7 @@ import { PostTitle } from '../components/post-title'
 import { PostContainer } from '../components/post-container'
 import { PostNavigator } from '../components/post-navigator'
 import { Bio } from '../components/bio'
+import { Disqus } from '../components/disqus'
 import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
@@ -20,8 +21,8 @@ export default ({ data, pageContext, location }) => {
 
   const post = data.markdownRemark
   const metaData = data.site.siteMetadata
-  const { title, comment } = metaData
-  const { utterances } = comment
+  const { title, comment, siteUrl } = metaData
+  const { disqusShortName, utterances } = comment
 
   return (
     <Layout location={location} title={title}>
@@ -30,6 +31,14 @@ export default ({ data, pageContext, location }) => {
       <PostContainer html={post.html} />
       <PostNavigator pageContext={pageContext} />
       <Bio/>
+      {!!disqusShortName && (
+        <Disqus
+          post={post}
+          shortName={disqusShortName}
+          siteUrl={siteUrl}
+          slug={pageContext.slug}
+        />
+      )}
       {!!utterances && <Utterences repo={utterances} />}
     </Layout>
   )
@@ -40,7 +49,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
         comment {
+          disqusShortName
           utterances
         }
       }
