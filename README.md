@@ -1,3 +1,18 @@
+# Dreameh Version of gatsby-starter-bee
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3592ed41-5640-4849-bd6c-f3b70a446d1d/deploy-status)](https://app.netlify.com/sites/festive-chandrasekhar-c3546e/deploys)
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
 
 ![](./assets/gatsby-starter-bee.png)
