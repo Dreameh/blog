@@ -48,7 +48,7 @@ body.light {
     border-right: 1px solid rgba($color: #000000, $alpha: 0.1);
     border-top: 1px solid rgba($color: #000000, $alpha: 0.1);
     border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
-
+    transition: border-color .3s, opacity .4s;
     h3 {
       color: $dark-gray;
     }
@@ -58,6 +58,7 @@ body.light {
     &:hover {
       //text-shadow: $light-hover-text-shadow;
     }
+
   }
   .thumbnail:hover {
     border-color: rgba($color: #0687f0, $alpha: 0.5);

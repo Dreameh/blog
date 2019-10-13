@@ -45,6 +45,7 @@ body.dark {
   }
 
   .thumbnail {
+    transition: border-color .3s, opacity .4s;
     h3 {
       color: $dark-light-font-color;
     }
