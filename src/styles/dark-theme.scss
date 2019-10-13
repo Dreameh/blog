@@ -16,7 +16,7 @@ body.dark {
       color: $dark-middle-font-color;
     }
     a {
-      color: $dark-link-color;
+      color: #2487b3;
     }
   }
 
@@ -78,12 +78,5 @@ body.dark {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
-  }
-
-  .menu-item {
-    color: $dark-lightest-font-color;
-  }
-  .link-menu {
-    color: $dark-link-color;
   }
 }
