@@ -6,8 +6,6 @@ lang: 'en'
 
 ## About this site
 
-<div align="center">
-
 
 I wish that this blog will be a place that will transform my own thoughts and ideas to words that
 I can make sense of, and others, although I must say, I am not really the best writer, so a plus
@@ -42,6 +40,3 @@ For the last ten years I have been:
 Trying out new technologies and increasing my knowledge of everything tech by a whooping +1 at the
 time this year while blogging about it shall be a goal, and while it's not really the first of january,
 I can still make due of what I have.
-
-
-</div>
