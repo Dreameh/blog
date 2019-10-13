@@ -6,7 +6,6 @@ lang: 'en'
 
 ## About this site
 
-
 I wish that this blog will be a place that will transform my own thoughts and ideas to words that
 I can make sense of, and others, although I must say, I am not really the best writer, so a plus
 would be that such skills would become better, only time will tell.
@@ -16,6 +15,11 @@ It's gonna be something along the lines of I teach myself while perhaps teaching
 
 Sounds good? Perfect.
 
+<div align="center">
+
+![](https://1.bp.blogspot.com/-inP6Y69ZNSs/V89SfuSZ_ZI/AAAAAAAAllo/PhbMxg2f-kQLgnP8yU39Vo06EcWs7C2xQCPcB/s1600/Omake%2BGif%2BAnime%2B-%2BNew%2BGame%2521%2B-%2BEpisode%2B10%2B-%2BUmiko%2BPuzzled.gif) 
+
+</div>
 
 ## About myself
 

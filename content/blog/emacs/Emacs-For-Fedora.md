@@ -26,7 +26,7 @@ category: 'emacs'
   **NOTE:** You can insert all the steps into a bash file and then run the
   file, for a faster install.
   
-  ```sh
+  ```bash
   # Dependencies for development
   sudo dnf group install "Development Tools"
   # Dependencies specific to emacs
