@@ -84,49 +84,47 @@ These entries will come with no score, or rank and they will be random, however,
 > How to not underestimate a labor inspector, fun comedy, some drama, little bit of sadness, haunted by the past, very good stuff.
 
 ### Player
-{% include figure.html image="https://i.mydramalist.com/q2pD8f.jpg" alt="just alt" %}
-
+![](https://i.mydramalist.com/q2pD8f.jpg)
 > How to steal your way into revenge and win.
 
 
 ### Less Than Evil
-{% include figure.html image="https://i.mydramalist.com/00OLef.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/00OLef.jpg)
 
 > The Korean Version of the UK series "Luther", probably the better one as well.
 
 ### My Sassy Girl
-{% include figure.html image="https://i.mydramalist.com/qkYePf.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/qkYePf.jpg)
 
 > If you wanna laugh and wanna see a bit of the Joseon Dynasty, this is the place for all of that with "My Sassy Girl"
 
 ### IRIS
-{% include figure.html image="https://i.mydramalist.com/816kQf.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/816kQf.jpg)
 
 > Do you like spy movies? Do you wanna see something from 10 years ago? Watch this wonderful thing, it's beautiful.
 
 ### IRIS 2
-{% include figure.html image="https://i.mydramalist.com/az26yf.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/az26yf.jpg)
 
 > Have you seen a lot of sequels of kdramas? me neither... this one imo isn't as good as the first, but still worth a watch.
 
 ### Oh My Venus
-{% include figure.html image="https://i.mydramalist.com/dyYK0f.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/dyYK0f.jpg)
 
 > A drama with lots of funny moments, some romance, some drama, but mostly comedy.
 
 ### Signal
-{% include figure.html image="https://i.mydramalist.com/kvYVOf.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/kvYVOf.jpg)
 
 > You might this that this series might end up being something like NCIS or something like that, but oh boy are you wrong, this crime solving drama has a pretty good twist on how to make it interesting!
 
 ### Prison Playbook
-{% include figure.html image="https://i.mydramalist.com/mkrg1f.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/mkrg1f.jpg)
 
 > A very very fun series, shows a little bit how the life in prison is in Korea, with a small bit of drama, but mostly just goofs.
 
 ### Doctor Prisoner
-
-{% include figure.html image="https://i.mydramalist.com/RWnmof.jpg" alt="just alt" %}
+![](https://i.mydramalist.com/RWnmof.jpg)
 
 > **Doctor Prisoner** is a fast-paced revenge drama that wont hold you hand during the binge watch, but instead shows you what happens when a big brain doctor gets screwed over big time
 
