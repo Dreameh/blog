@@ -1,3 +1,6 @@
 .thumbnail-container {
   min-height: calc(100vh - 3.5rem);
 }
+.thumbnail:hover {
+  border-color: rgba($color: #0687f0, $alpha: 0.3);
+}

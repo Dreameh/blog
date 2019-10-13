@@ -52,7 +52,7 @@ body.dark {
       color: $dark-middle-font-color;
     }
     &:hover {
-      text-shadow: $dark-hover-text-shadow;
+      //text-shadow: $dark-hover-text-shadow;
     }
   }
 
@@ -70,7 +70,13 @@ body.dark {
 
   h1,
   h2 {
-    border-bottom-color: rgba(255, 255, 255, 0.3);
+    //border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: transparent;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    margin-top: 10px;
   }
 
   .navigator {

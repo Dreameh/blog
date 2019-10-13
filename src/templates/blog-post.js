@@ -12,6 +12,7 @@ import { Utterences } from '../components/utterances'
 import * as ScrollManager from '../utils/scroll'
 
 import '../styles/code.scss'
+import { PostDate } from '../components/post-date'
 
 export default ({ data, pageContext, location }) => {
   useEffect(() => {
@@ -27,7 +28,10 @@ export default ({ data, pageContext, location }) => {
   return (
     <Layout location={location} title={title}>
       <Head title={post.frontmatter.title} description={post.excerpt} />
-      <PostTitle title={post.frontmatter.title} />
+      <div>
+        <PostTitle title={post.frontmatter.title} />
+        <PostDate date={post.frontmatter.date} />
+      </div>
       <PostContainer html={post.html} />
       <PostNavigator pageContext={pageContext} />
       <Bio/>
