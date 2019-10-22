@@ -1,18 +1,26 @@
 language: node_js
+os:
+  - linux
+  - osx
 node_js:
-  - "10"
-
-os: [linux]
-dist: trusty
-cache: yarn
-
-script: yarn run build
-
-deploy:
-  provider: pages
-  local-dir: public
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
-  on:
-    branch: master
+  - 'lts/*'
+  - '8'
+env:
+  - LIGHTHOUSE_API_KEY=adf615154a8d49588da7f64376c841d0
+before_install:
+  - npm install -g npm@latest
+  - npm install -g greenkeeper-lockfile@1
+install:
+  - npm install
+before_script:
+  - greenkeeper-lockfile-update
+script:
+  - npm run lint
+after_script:
+  - greenkeeper-lockfile-upload
+after_success:
+  - npm run lh -- --perf=90 --pwa=100 --no-comment https://gatsby-starter-bee.netlify.com/
+branches:
+  only:
+    - master
+    - /^greenkeeper.*$/
