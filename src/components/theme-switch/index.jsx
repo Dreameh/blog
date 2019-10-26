@@ -1,45 +1,46 @@
-import React, { useState, useEffect } from 'react'
-import Switch from 'react-switch'
+import React, { useState, useEffect } from 'react';
+import Switch from 'react-switch';
 
-import * as Dom from '../../utils/dom'
-import { THEME } from '../../constants'
+import * as Dom from '../../utils/dom';
+import { THEME } from '../../constants';
 
-import './index.scss'
+import './index.scss';
 
 function getTheme(checked) {
-  return checked ? THEME.DARK : THEME.LIGHT
+  return checked ? THEME.LIGHT : THEME.DARK;
 }
 
 function toggleTheme(theme) {
+  console.log(theme);
   switch (theme) {
     case THEME.LIGHT: {
-      Dom.addClassToBody(THEME.LIGHT)
-      Dom.removeClassToBody(THEME.DARK)
-      break
+      Dom.addClassToBody(THEME.LIGHT);
+      Dom.removeClassToBody(THEME.DARK);
+      break;
     }
     case THEME.DARK: {
-      Dom.addClassToBody(THEME.DARK)
-      Dom.removeClassToBody(THEME.LIGHT)
-      break
+      Dom.addClassToBody(THEME.DARK);
+      Dom.removeClassToBody(THEME.LIGHT);
+      break;
     }
   }
 }
 
 export const ThemeSwitch = () => {
-  const [checked, setChecked] = useState(false)
+  const [checked, setChecked] = useState(false);
 
   const handleChange = checked => {
-    const theme = getTheme(checked)
+    const theme = getTheme(checked);
 
-    setChecked(checked)
-    toggleTheme(theme)
-  }
+    setChecked(checked);
+    toggleTheme(theme);
+  };
 
   useEffect(() => {
-    const checked = Dom.hasClassOfBody(THEME.DARK)
+    const checked = Dom.hasClassOfBody(THEME.LIGHT);
 
-    handleChange(checked)
-  }, [])
+    handleChange(checked);
+  }, []);
 
   return (
     <div className="switch-container">
@@ -50,14 +51,14 @@ export const ThemeSwitch = () => {
           id="normal-switch"
           height={24}
           width={48}
-          checkedIcon={<div className="icon checkedIcon">D</div>}
-          uncheckedIcon={<div className="icon uncheckedIcon">L</div>}
-          offColor={'#d9dfe2'}
-          offHandleColor={'#fff'}
-          onColor={'#999'}
-          onHandleColor={'#282c35'}
+          uncheckedIcon={<div className="icon uncheckedIcon">D</div>}
+          checkedIcon={<div className="icon checkedIcon">L</div>}
+          onColor={'#d9dfe2'}
+          onHandleColor={'#fff'}
+          offColor={'#999'}
+          offHandleColor={'#282c35'}
         />
       </label>
     </div>
-  )
-}
+  );
+};
