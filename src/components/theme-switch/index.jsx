@@ -1,45 +1,45 @@
-import React, { useState, useEffect } from 'react'
-import Switch from 'react-switch'
+import React, { useState, useEffect } from 'react';
+import Switch from 'react-switch';
 
-import * as Dom from '../../utils/dom'
-import { THEME } from '../../constants'
+import * as Dom from '../../utils/dom';
+import { THEME } from '../../constants';
 
-import './index.scss'
+import './index.scss';
 
 function getTheme(checked) {
-  return checked ? THEME.DARK : THEME.LIGHT
+  return checked ? THEME.DARK : THEME.LIGHT;
 }
 
 function toggleTheme(theme) {
   switch (theme) {
     case THEME.LIGHT: {
-      Dom.addClassToBody(THEME.LIGHT)
-      Dom.removeClassToBody(THEME.DARK)
-      break
+      Dom.addClassToBody(THEME.LIGHT);
+      Dom.removeClassToBody(THEME.DARK);
+      break;
     }
     case THEME.DARK: {
-      Dom.addClassToBody(THEME.DARK)
-      Dom.removeClassToBody(THEME.LIGHT)
-      break
+      Dom.addClassToBody(THEME.DARK);
+      Dom.removeClassToBody(THEME.LIGHT);
+      break;
     }
   }
 }
 
 export const ThemeSwitch = () => {
-  const [checked, setChecked] = useState(false)
+  const [checked, setChecked] = useState(false);
 
   const handleChange = checked => {
-    const theme = getTheme(checked)
+    const theme = getTheme(checked);
 
-    setChecked(checked)
-    toggleTheme(theme)
-  }
+    setChecked(checked);
+    toggleTheme(theme);
+  };
 
   useEffect(() => {
-    const checked = Dom.hasClassOfBody(THEME.DARK)
+    const checked = Dom.hasClassOfBody(THEME.DARK);
 
-    handleChange(checked)
-  }, [])
+    handleChange(checked);
+  }, []);
 
   return (
     <div className="switch-container">
@@ -59,5 +59,5 @@ export const ThemeSwitch = () => {
         />
       </label>
     </div>
-  )
-}
+  );
+};
