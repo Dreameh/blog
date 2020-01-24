@@ -11,6 +11,7 @@ import { HOME_TITLE } from '../constants'
 export default ({ data, location }) => {
   const resumes = data.allMarkdownRemark.edges
   const { siteMetadata } = data.site
+  const ABOUT_TITLE = "About"
 
   const resume = resumes
     .filter(({ node }) => node.frontmatter.lang === Lang.ENGLISH)
@@ -18,7 +19,7 @@ export default ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteMetadata.title}>
-      <Head title={HOME_TITLE} keywords={siteMetadata.keywords} />
+      <Head title={ABOUT_TITLE} keywords={siteMetadata.keywords} />
     <div
       style={{
         marginLeft: `auto`,
