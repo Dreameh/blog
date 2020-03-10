@@ -1,9 +1,9 @@
 module.exports = {
-  title: `ルーカスのブログ`,
+  title: `ルーカス日記`,
   description: `Blog about Linux, Emacs and development`,
   author: `Dreameh`,
   introduction: `リヌクス、プログラミングとEmacs.`,
-  siteUrl: `https://dreameh.moe`, // Your blog site url
+  siteUrl: `https://dreameh.dev`, // Your blog site url
   social: {
     twitter: `iamDreameh`, // Your Twitter account
     github: `Dreameh`, // Your GitHub account

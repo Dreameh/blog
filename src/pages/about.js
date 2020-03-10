@@ -4,18 +4,18 @@ import { graphql } from 'gatsby'
 import { Layout } from '../layout'
 import { Head } from '../components/head'
 import { rhythm } from '../utils/typography'
-import * as Lang from '../constants'
 
 import { HOME_TITLE } from '../constants'
 
 export default ({ data, location }) => {
-  const resumes = data.allMarkdownRemark.edges
+  const aboutPage = data.allMarkdownRemark.edges
   const { siteMetadata } = data.site
   const ABOUT_TITLE = "About"
 
-  const resume = resumes
-    .filter(({ node }) => node.frontmatter.lang === Lang.ENGLISH)
-    .map(({ node }) => node)[0]
+  const about = aboutPage
+	.filter(({ node}) => node.frontmatter.title === "about")
+	.map(({ node }) => node)[0]
+
 
   return (
     <Layout location={location} title={siteMetadata.title}>
@@ -30,7 +30,7 @@ export default ({ data, location }) => {
         )}`,
       }}
     >
-      <div dangerouslySetInnerHTML={{ __html: resume.html }} />
+      <div dangerouslySetInnerHTML={{ __html: about.html }} />
     </div>
     </Layout>
   )
@@ -55,7 +55,6 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
-            lang
           }
         }
       }
