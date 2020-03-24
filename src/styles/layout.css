@@ -79,6 +79,13 @@ h4 {
 
 a {
   color: inherit;
+  transition: color 0.2s ease-in-out;
+}
+body.dark-theme a:hover {
+  color: #e9e9ef;
+}
+body.light-theme a:hover {
+  color: #444444;
 }
 
 img {
