@@ -1,5 +1,5 @@
 ---
-title: Org Mode
+title: Org Mode 9.2 and beyond
 date: 2020-03-26
 category: 'emacs'
 path: "/blog/org-mode-92"
