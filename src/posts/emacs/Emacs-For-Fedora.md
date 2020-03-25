@@ -2,7 +2,7 @@
 title: Emacs Installation on Fedora 30/31/Rawhide
 date: 2019-10-02 00:00:00
 category: 'emacs'
-path: "/emacs-26"
+path: "/blog/emacs-26"
 ---
  Installing Emacs through the official channels is very easy,
   however, with the recent problem that a lot of Emacs users were
@@ -26,7 +26,7 @@ path: "/emacs-26"
 
   **NOTE:** You can insert all the steps into a bash file and then run the
   file, for a faster install.
-  
+
   ```bash
   # Dependencies for development
   sudo dnf group install "Development Tools"

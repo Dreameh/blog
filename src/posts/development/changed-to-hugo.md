@@ -2,7 +2,7 @@
 title: Hugo
 date: 2018-10-14 00:00:00
 category: 'development'
-path: "/hugo"
+path: "/blog/hugo"
 ---
 
 Changing from Nikola to Hugo can a somewhat of a drag, you will have to

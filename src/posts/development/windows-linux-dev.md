@@ -2,7 +2,7 @@
 title: A Windows Development Story
 date: 2020-01-12 00:00:00
 category: 'development'
-path: "/windows-dev"
+path: "/blog/windows-dev"
 ---
 
 So I was back on Windows for a while, because I wanted to see how much I would

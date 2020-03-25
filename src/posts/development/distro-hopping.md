@@ -2,7 +2,7 @@
 title: Distro hopping
 date: 2020-03-25
 category: 'development'
-path: "/distro-hopping"
+path: "/blog/distro-hopping"
 ---
 
 For the past months, ever since I made the post on Fedora, I have been

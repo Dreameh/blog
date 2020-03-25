@@ -2,7 +2,7 @@
 title: The great Doctor Who
 date: 2019-02-19 00:00:00
 category: 'thoughts'
-path: "/the-great-doctor-who"
+path: "/blog/the-great-doctor-who"
 ---
 
 

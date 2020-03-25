@@ -1,11 +1,8 @@
 ---
-title: 'about'
-date: 2019-1-27 16:21:13
-lang: 'en'
+title: 'About'
+date: 2019-1-27
 path: '/about'
 ---
-
-## About this site
 
 I wish that this blog will be a place that will transform my own thoughts and ideas to words that
 I can make sense of, and others, although I must say, I am not really the best writer, so a plus
@@ -42,6 +39,6 @@ I can still make due of what I have.
 
 <div align="center">
 
-![](https://1.bp.blogspot.com/-inP6Y69ZNSs/V89SfuSZ_ZI/AAAAAAAAllo/PhbMxg2f-kQLgnP8yU39Vo06EcWs7C2xQCPcB/s1600/Omake%2BGif%2BAnime%2B-%2BNew%2BGame%2521%2B-%2BEpisode%2B10%2B-%2BUmiko%2BPuzzled.gif) 
+![](https://1.bp.blogspot.com/-inP6Y69ZNSs/V89SfuSZ_ZI/AAAAAAAAllo/PhbMxg2f-kQLgnP8yU39Vo06EcWs7C2xQCPcB/s1600/Omake%2BGif%2BAnime%2B-%2BNew%2BGame%2521%2B-%2BEpisode%2B10%2B-%2BUmiko%2BPuzzled.gif)
 
 </div>

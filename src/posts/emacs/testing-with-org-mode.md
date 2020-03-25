@@ -2,8 +2,9 @@
 title: Testing with Org Mode
 date: 2018-9-10 00:00:00
 category: 'emacs'
-path: "/testing-with-org-mode"
+path: "/blog/testing-with-org-mode"
 ---
+
 
 
 Using org-mode with nikola is a blast, writing everything down in org-mode

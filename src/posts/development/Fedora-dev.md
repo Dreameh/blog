@@ -2,7 +2,7 @@
 title: Using Fedora for Development in 2020
 date: 2020-01-25 00:00:00
 category: 'development'
-path: "/fedora-dev-2020"
+path: "/blog/fedora-dev-2020"
 ---
 
 You might have noticed that I put up some posts about Fedora already and how to

@@ -2,7 +2,7 @@
 title: Linux Mindset
 date: 2019-08-01 00:00:00
 category: 'linux'
-path: "/linux"
+path: "/blog/linux"
 ---
 
 Hello there!
@@ -19,7 +19,7 @@ It took me a few tries to get it to work, but once I had gotten it to
 work on my machine, it was beautiful, there was Gnome 2, a powerful
 terminal which would listen to my command, and perform it once I had
 clicked enter on my keyboard, it was a very joyous moment for this
-little nerd and that was when it all started. 
+little nerd and that was when it all started.
 
 A few weeks later and I was finally being able to wield the great
 powers which the terminal had bestowed upon me, I took it all
@@ -93,7 +93,7 @@ error code lurking.
 If you find the error code, then you simply go to google and type
 following in:
 
-``` 
+```
 <error-code> linux
 ```
 or if it might be something specific for let's say Ubuntu, then

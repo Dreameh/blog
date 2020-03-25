@@ -2,7 +2,7 @@
 title: Emacs Indenting
 date: 2018-10-14 00:00:00
 category: 'emacs'
-path: "/emacs-indenting"
+path: "/blog/emacs-indenting"
 ---
 
 
@@ -17,7 +17,7 @@ only one setting you need to change, but also changing it with the different **m
 I had to change C and Python for now, but in the future, I will most likely have to change more.
 This should change that:
 
-```
+```lisp
 (setq-default indent-tabs-mode nil)
 (setq tab-width 4)
 ```
@@ -26,8 +26,8 @@ This changes the indentation mode to spaces instead of tabs.
 
 You can also change the language-mode specific ones like this:
 
-```
-(defvaralias 'python-indent-offset 'tab-width)
+```lisp
+(defalias 'python-indent-offset 'tab-width)
 ```
 
 But if you do like this, you will need to adjust the tab-width through it's variable.

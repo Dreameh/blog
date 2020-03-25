@@ -129,4 +129,4 @@ These entries will come with no score, or rank and they will be random, however,
 
 > **Doctor Prisoner** is a fast-paced revenge drama that wont hold you hand during the binge watch, but instead shows you what happens when a big brain doctor gets screwed over big time
 
-[Check the "review" of it](https://dreameh.moe/kdrama/2019/07/05/doctor-prisoner/)
+[Check the "review" of it](https://dreameh.dev/blog/doctor-prisoner/)

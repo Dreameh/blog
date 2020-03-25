@@ -2,7 +2,7 @@
 title: Emacs 27/28 on Fedora 31
 date: 2020-01-12 00:00:00
 category: 'emacs'
-path: "/emacs-fedora-31"
+path: "/blog/emacs-fedora-31"
 ---
 In my previous post I showed how you can install Emacs through the Emacs
 website, this time I will be showing you how you can install Emacs through the
@@ -17,7 +17,7 @@ software, so getting the "edge" version is always a little scary but fun.
 
 So let's start with cloning the repository from github:
     `git clone https://github.com/emacs-mirror/emacs.git`
-    
+
 Afterwards we will have to do a similar route we took in the previous post with
 downloading the dependencies for emacs and it's easy to do it like so:
 
@@ -42,4 +42,4 @@ If it runs as it should then go ahead and install the binaries with: `sudo make
 install`
 
 It's pretty easy to install, and in order to keep the install be updated, you
-should do a git pull every now and again and do a reinstall. 
+should do a git pull every now and again and do a reinstall.
