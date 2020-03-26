@@ -61,6 +61,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-fathom`,
+      options: {
+        trackingUrl: `fantom-funtimes.herokuapp.com/`,
+        siteId: `XENJY`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
