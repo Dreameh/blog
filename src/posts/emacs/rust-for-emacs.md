@@ -5,7 +5,7 @@ category: 'emacs'
 path: "/blog/rust-emacs"
 ---
 
-Today I added rust support to my emacs config. And how it has been
+Today I added rust support to my emacs config. How it has been
 before is that I used **emacs-racer** which might or might not have
 worked most of the times, mostly due to the sheer fact that you had to
 use the nightly toolchain of rust in order to build racer.
