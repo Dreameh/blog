@@ -1,6 +1,6 @@
 ---
 title: Rust for Emacs
-date: 2020-30-03
+date: 2020-03-30
 category: 'emacs'
 path: "/blog/rust-emacs"
 ---
